@@ -110,6 +110,7 @@ export default class MessageBarWebPart extends BaseClientSideWebPart<IMessageBar
                   key: 'messageBarIconField'
                 }),
                 PropertyFieldRichTextBox('text', {
+                  //context:this.context,
                   label: strings.Text,
                   initialValue: this.properties.text,
                   inline: false,
